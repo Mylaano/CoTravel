@@ -1,0 +1,156 @@
+/**************************
+********** Fonts **********
+**************************/
+
+@font-face {
+    font-family: "SF-Pro";
+    src: local("/assets/fonts/sf-pro/SFPRODISPLAYREGULAR.OTF");
+}
+
+/**************************
+********** Reset **********
+**************************/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a, h1, h2, h3, p {
+    color: #FFFFFF;
+}
+
+body {
+    font-family: "SF-Pro", sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+body::before {
+    content: "";
+    background-image: url("/assets/images/deva-darshan-2XUfjLp7HYY-unsplash 1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+/***************************
+********** Header **********
+***************************/
+
+header {
+    margin: 38px 85px 0 40px;
+}
+
+header > nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header > nav > a {
+    height: min-content;
+}
+
+.logo {
+    width: 125px;
+    height: auto;
+}
+
+.sign-in {
+    text-decoration: underline;
+    font-size: 28px;
+}
+
+.links > li > a {
+    font-size: 28px;
+}
+
+/*******************************************
+********** Section - Introduction **********
+*******************************************/
+
+.section-introduction {
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+    margin-left: 40px;
+}
+
+.section-introduction > h1 {
+    width: 10em;
+    font-size: 92px;
+    font-weight: bold;
+}
+
+.section-introduction > h1 > strong {
+    color: #DDDC86;
+}
+
+.section-introduction > p {
+    width: 15em;
+    font-size: 28px;
+}
+
+/***************************
+********** Footer **********
+***************************/
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin: 0 40px 40px;
+}
+
+footer > .btn {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    color: #04292C;
+    background-color: #DDDC86;
+    padding: 12px 25px;
+    border-radius: 10px;
+}
+
+footer > ol {
+    display: flex;
+    gap: 50px;
+}
+
+footer > ol > li {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 13.7em;
+}
+
+footer > ol > li > h2 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+footer > ol > li > h3 {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+footer > ol > li > p {
+    font-weight: 500;
+}
