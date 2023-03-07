@@ -1,6 +1,6 @@
 # CoTravel
  
-CoTravel est une maquette réalisée par NineNinjas.
-Lien: https://dribbble.com/shots/20663985-CoTravel-travel-service-website
+<p>CoTravel est une maquette réalisée par NineNinjas.</p>
+<p>Lien: https://dribbble.com/shots/20663985-CoTravel-travel-service-website</p>
 
-Codé en HTML/CSS pour le plaisir.
+<p>Codé en HTML/CSS pour le plaisir.</p>
