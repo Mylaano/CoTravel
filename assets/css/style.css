@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: "SF-Pro";
-    src: local("/assets/fonts/sf-pro/SFPRODISPLAYREGULAR.OTF");
+    src: local("../fonts/sf-pro/SFPRODISPLAYREGULAR.OTF");
 }
 
 /**************************
@@ -39,7 +39,7 @@ body {
 
 body::before {
     content: "";
-    background-image: url("/assets/images/deva-darshan-2XUfjLp7HYY-unsplash 1.svg");
+    background-image: url("../images/deva-darshan-2XUfjLp7HYY-unsplash 1.svg");
     background-repeat: no-repeat;
     background-size: cover;
     filter: brightness(0.7);
